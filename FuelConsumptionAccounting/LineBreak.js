@@ -1,5 +1,5 @@
 function lineBreak() {
-    var ss = SpreadsheetApp.openById('1swo1Ov08m9PNAZt72j3hhqTQIL6tlhi6qxWI3mLNRw4');
+    var ss = SpreadsheetApp.openById('Your ID from google sheets');
     var activeSheet = ss.getActiveSheet();
 
     if (activeSheet.getRange('G4').isChecked()) {
