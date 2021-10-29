@@ -22,6 +22,7 @@ function CreateHeaderForCalculator() {
         activeSheet.getRange('A1:H1').setBackground('#dfc9c9');
         activeSheet.getRange('G2:H2').setBackground('#dfc9c9');
         activeSheet.getRange('A2:B2').setBackground('#e8ffdc');
+        activeSheet.getRange('E2').setBackground('#e8ffdc');
         activeSheet.getRange('I1:J1').setBackground('#dcd7f1');
         activeSheet.getRange('G3:G4').setBackground('#9beee8');
         activeSheet.getRange('H3:H4').setBackground('#eae471');
@@ -113,3 +114,4 @@ function CreateHeaderForCalculator() {
         cell7.setDataValidation(rule7);
     }
 }
+
